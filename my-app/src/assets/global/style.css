@@ -1,0 +1,28 @@
+:root {
+    --color-yellow: #FFCE07;
+    --color-blue: #04C2F2;
+    --color-green: #8BF204;
+    --color-red: #F23C04;
+
+    --color-menu: #f0f1f2;
+    --color-background: #e0e0e0;
+    --color-input: #e7e7e7;
+    --color-details-green-dark: #689f4f;
+    --color-text: #5a5c5d;
+    --color-content-header: #ffffff;
+
+    background-color: var(--color-yellow);
+
+    
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: var(--color-text);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-text);
+}

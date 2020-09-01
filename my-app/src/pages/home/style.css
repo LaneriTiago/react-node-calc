@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#header-style {
+    background-color: var(--color-blue);
+    height: 80px;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-style {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#content-style {
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0 0 10px 10px;
+}
+
+#footer-style {
+    background-color: var(--color-red);
+    height: 160px;
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

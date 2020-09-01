@@ -8,12 +8,14 @@
     --color-background: #e0e0e0;
     --color-input: #e7e7e7;
     --color-details-green-dark: #689f4f;
-    --color-text: #5a5c5d;
+    --color-text: #464444;
     --color-content-header: #ffffff;
 
     background-color: var(--color-yellow);
+    background-image: url(../img/bg.png);
 
-    
+    font-family: 'Londrina Solid', cursive;
+    color: var(--color-text)
 }
 
 ::-webkit-scrollbar-track {
